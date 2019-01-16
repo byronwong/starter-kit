@@ -1,11 +1,12 @@
 import path from 'path';
-
 import express from 'express';
+import favicon from 'serve-favicon';
 import Chalk from 'chalk';
 
 const port = process.env.PORT || 8000;
 const app = express();
 
+app.use(favicon(path.resolve(__dirname, 'favicon.ico')));
 app.use(express.static('src')); // NOTE: serving out of source for now
 
 app.get('/', function(req, res){
