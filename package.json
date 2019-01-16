@@ -1,7 +1,7 @@
 {
-  "name": "2018-starter",
+  "name": "starter-kit",
   "version": "1.0.0",
-  "description": "Starter kit for 2018",
+  "description": "Basic starter kit running express only",
   "main": "app.js",
   "scripts": {
     "prestart": "npx babel-node app.js",
