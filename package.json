@@ -2,12 +2,12 @@
   "name": "starter-kit",
   "version": "1.0.0",
   "description": "Basic starter kit running express only",
-  "main": "app.js",
+  "private": true,
   "scripts": {
     "prestart": "npx babel-node app.js",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "package": "del ./node_modules"
+    "build": "webpack"
   },
   "keywords": [
     "starter-kit"
@@ -17,11 +17,17 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "express": "^4.16.4",
+    "lodash": "^4.17.11",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "nodemon": "^1.18.9"
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.18.9",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }
