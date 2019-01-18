@@ -8,6 +8,10 @@ This is a basic starter-kit that runs a simple express server. Ideally for sandb
 
 ## What's in this project 
 
+### Mode
+https://webpack.js.org/concepts/#mode
+Currently set to 'development'
+
 ### Basic implementation of webpack
 https://webpack.js.org/guides/getting-started/
 
