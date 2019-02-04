@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "prestart": "npx babel-node app.js",
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch"
@@ -30,6 +30,7 @@
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.5.0",
     "nodemon": "^1.18.9",
+    "opn": "^5.4.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
