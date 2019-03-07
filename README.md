@@ -8,7 +8,7 @@ This is a basic starter-kit that runs a simple express server. Ideally for sandb
 
 ## Things to do
 - remove nodemon and webpack hot loader and opn modules now refresh page
-
+- setup sass compiling
 ## What's in this project 
 
 ### Mode
