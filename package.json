@@ -4,8 +4,9 @@
   "description": "Basic starter kit running express only",
   "private": true,
   "scripts": {
-    "prestart": "npx babel-node app.js",
-    "start": "node app.js",
+    "prestartOLD": "npx babel-node app.js",
+    "startOLD": "node app.js",
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch"
@@ -31,6 +32,7 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-middleware": "^3.6.1"
+    "webpack-dev-middleware": "^3.6.1",
+    "webpack-dev-server": "^3.2.1"
   }
 }

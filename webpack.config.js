@@ -5,6 +5,9 @@ module.exports = {
   entry: {
     app: './src/index.js'
   },
+  devServer: {
+    contentBase: './dist'
+  },
   plugins: [
   ],
   output: {

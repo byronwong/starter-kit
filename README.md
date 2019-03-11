@@ -10,7 +10,9 @@ This is a basic starter-kit that runs a simple express server. Ideally for sandb
 ## Things to do
 - remove nodemon and webpack hot loader and opn modules now refresh page
 - setup sass compiling
+
 ## What's in this project 
+> Note: Using webpack dev server for now, however express js is still here for further development with webpack-dev-middleware. Change NPM start script!
 
 ### Mode
 https://webpack.js.org/concepts/#mode
