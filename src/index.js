@@ -1,3 +1,4 @@
+import './style.css';
 
 function component() {
   let element = document.createElement('div');
