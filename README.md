@@ -5,6 +5,7 @@ This is a basic starter-kit that runs a simple express server. Ideally for sandb
 - `npm start` - NOTE: we are using `nodemon` to reset the serve on change.
 - `npm-run-all --parallel task1 task2` - runs tasks in parallel
 - `-s ` - run in silent mode
+- Add your `.env file`
 
 ## Things to do
 - remove nodemon and webpack hot loader and opn modules now refresh page
