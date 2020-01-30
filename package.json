@@ -19,7 +19,7 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "dotenv": "^6.2.0",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
@@ -28,11 +28,11 @@
     "css-loader": "^2.1.1",
     "file-loader": "^3.0.1",
     "mini-css-extract-plugin": "^0.5.0",
-    "opn": "^5.4.0",
+    "opn": "^5.5.0",
     "style-loader": "^0.23.1",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-middleware": "^3.6.1",
-    "webpack-dev-server": "^3.2.1"
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-dev-server": "^3.10.1"
   }
 }
