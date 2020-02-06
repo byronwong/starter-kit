@@ -21,3 +21,7 @@ or add `node -r dotenv/config app.js` to npm start script
 ## Updaing packages
 See all packages `npm ls`
 Review outdated packages with `npm outdated`
+
+## TODO
+- merge with master
+- add parcel?
