@@ -2,12 +2,8 @@ const path = require('path')
 const express = require('express')
 const serveFavicon = require('serve-favicon')
 const Chalk = require('chalk')
-const opn = require('opn')
 
-// import express from 'express';
-// import favicon from 'serve-favicon';
-// import Chalk from 'chalk';
-// import opn from 'opn';
+// require('dotenv').config(); using preload npm script
 
 const port = process.env.PORT || 8000;
 const app = express();
@@ -26,5 +22,3 @@ app.listen(port, function(err){
   console.log(Chalk.green('Server created on port: ') + Chalk.red(port));
 });
 
-// Opens the url in the default browser
-opn(`http://localhost:${port}/`);
