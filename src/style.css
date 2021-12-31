@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  /* For ttf use truetype */
+  src: url('assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.hello {
+  font-family: 'Poppins';
+  /* font-size: 2rems; */
+  color: blue;
+}
