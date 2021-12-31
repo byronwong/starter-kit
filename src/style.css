@@ -24,9 +24,7 @@ body {
   background-color: #fff;
   font-size: 16px;
 }
-
-.hello {
+h1 {
   font-family: 'Poppins';
-  /* font-size: 2rems; */
   color: blue;
 }
