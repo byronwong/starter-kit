@@ -4,13 +4,15 @@
   "description": "Basic starter kit running express only",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass ./src/style.scss ./src/style.css"
   },
   "keywords": [
     "starter-kit"
   ],
   "author": "Byron Wong",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "sass": "^1.45.2"
+  }
 }
