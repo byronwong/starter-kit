@@ -15,6 +15,7 @@ This is a basic starter-kit, ideally for sandbox and very early prototypes.
 
 # TODO
 
+[] https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin
 [] SASS
 [] Babel ES6
 [] Prettier
